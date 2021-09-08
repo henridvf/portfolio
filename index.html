@@ -13,29 +13,28 @@
   <body>
     <div id="top-nav">
       <nav class="top-nav">
-        <a href="#home">Home</a>
+        <a href="#top-nav">Home</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact-me">Contact</a>
         <a href="#about-me">About</a>
       </nav>
     </div>
-    <header>
-      <div class="intro" id="home">
-        <section class="greeting-blob">
-          <h1>Hello</h1>
-          I'm Henri<br />Full Stack Developer (in training)
-        </section>
+    <header class="intro" id="home">
+      <div class="box greeting-blob">
+        <h1>Hello</h1>
+        <p>I'm Henri<br />Full Stack Developer</p>
       </div>
+      <img src="images/pexels-mockupeditorcom-205316.jpg" alt="Zen Desk" />
     </header>
     <main>
-      <div class="projects-page" id="portfolio">
+      <section class="projects-page" id="portfolio">
         <h2>Portfolio</h2>
         <p>
           Here is a small selection of the applications I have worked on during
           my career
         </p>
         <div class="projects-group">
-          <section class="project">
+          <div class="project">
             <h3>Project 1</h3>
             <img src="images/pexels-digital-buggu-374559.jpg" alt="Project 1" />
             <div class="middle">
@@ -47,8 +46,8 @@
               >
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </section>
-          <section class="project">
+          </div>
+          <div class="project">
             <h3>Project 2</h3>
             <img src="images/pexels-digital-buggu-374559.jpg" alt="Project 2" />
             <div class="middle">
@@ -60,8 +59,8 @@
               >
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </section>
-          <section class="project">
+          </div>
+          <div class="project">
             <h3>Project 3</h3>
             <img src="images/pexels-digital-buggu-374559.jpg" alt="Project 3" />
             <div class="middle">
@@ -73,8 +72,8 @@
               >
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </section>
-          <section class="project">
+          </div>
+          <div class="project">
             <h3>Project 4</h3>
             <img src="images/pexels-digital-buggu-374559.jpg" alt="Project 4" />
             <div class="middle">
@@ -86,8 +85,8 @@
               >
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </section>
-          <section class="project">
+          </div>
+          <div class="project">
             <h3>Project 5</h3>
             <img src="images/pexels-digital-buggu-374559.jpg" alt="Project 5" />
             <div class="middle">
@@ -99,8 +98,8 @@
               >
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </section>
-          <section class="project">
+          </div>
+          <div class="project">
             <h3>Project 6</h3>
             <img src="images/pexels-digital-buggu-374559.jpg" alt="Project 6" />
             <div class="middle">
@@ -112,25 +111,25 @@
               >
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </section>
+          </div>
         </div>
         <div class="back-to-top">
           <a href="#top-nav" title="Back to Top" alt="Back to Top"
             ><i class="far fa-arrow-alt-circle-up nav-icon"></i
           ></a>
         </div>
-      </div>
-      <div class="profile-page" id="about-me">
+      </section>
+      <section class="profile-page" id="about-me">
         <h2>About Me</h2>
         <div class="profile">
-          <section class="profile-col">
+          <div class="profile-col">
             <img
               src="images/pexels-the-world-hopper-1851481.jpg"
               title="Traveller photographer at the pyramids"
               alt="Traveller photographer at the pyramids"
             />
-          </section>
-          <section class="profile-col">
+          </div>
+          <div class="profile-col">
             <p>
               <strong
                 >Name: Henri von Franquemont<br />Born: Amsterdam, The
@@ -147,17 +146,35 @@
               ultrices. In in faucibus turpis, ac dignissim metus.
             </p>
             <p><a href="#" target="_blank">Download CV</a></p>
-          </section>
+          </div>
         </div>
         <div class="back-to-top">
           <a href="#top-nav" title="Back to Top" alt="Back to Top"
             ><i class="far fa-arrow-alt-circle-up nav-icon"></i
           ></a>
         </div>
-      </div>
+      </section>
+      <section class="contact-me" id="contact-me">
+        <h2>Contact Me</h2>
+        <p>
+          <span
+            ><a href="mailto:henridvf@gmail.com"
+              ><i class="far fa-envelope"></i> Email</a
+            ></span
+          ><span
+            ><a href="#"
+              ><i class="fab fa-facebook-square"></i> Facebook</a
+            ></span
+          ><span
+            ><a href="#"><i class="fab fa-twitter-square"></i> Twitter</a></span
+          ><span
+            ><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></span
+          >
+        </p>
+      </section>
     </main>
-    <footer>
-      <div class="footer">&copy; Copyright 2021</div>
+    <footer class="footer">
+      <p>&copy; Copyright 2021</p>
     </footer>
   </body>
 </html>
