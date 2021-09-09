@@ -87,13 +87,15 @@ h1 {
   color: #ffffff;
   margin: 10px;
   padding: 5px 5px;
-  width: 200px;
+  position: relative;
+  min-width: 200px;
+  max-width: 13%;
 }
 
 .project img {
   backface-visibility: hidden;
   display: block;
-  height: 120px;
+  max-height: 180px;
   opacity: 1;
   transition: 0.5s ease;
   width: 100%;
@@ -108,8 +110,9 @@ p {
   -ms-transform: translate(-50%, -50%);
   left: 50%;
   opacity: 0;
-  position: relative;
+  position: absolute;
   text-align: center;
+  top: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s ease;
 }
@@ -137,7 +140,7 @@ p {
   padding: 8px 8px;
   text-align: center;
   text-decoration: none;
-  width: 80%;
+  width: 100%;
 }
 
 .profile {
@@ -194,5 +197,8 @@ p {
   }
   .top-nav {
     justify-content: space-between;
+  }
+  .project {
+    max-width: 90%;
   }
 }
