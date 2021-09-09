@@ -13,24 +13,23 @@ body {
 }
 
 h1 {
-  color: red;
+  color: #ff0000;
 }
 
 .top-nav {
   display: flex;
   justify-content: flex-end;
-  background-color: black;
+  background-color: #000000;
 }
 
 .top-nav a {
-  color: white;
-  font-size: 17px;
+  color: #ffffff;
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 1em 1.2em;
 }
 
 .top-nav a:hover {
-  background-color: goldenrod;
+  background-color: #daa520;
 }
 
 .intro {
@@ -47,7 +46,7 @@ h1 {
   position: absolute;
   width: calc(1.7vw + 5px);
   height: calc(1.7vw + 5px);
-  background-color: #fff;
+  background-color: #ffffff;
   display: -webkit-box;
   display: flex wrap;
   -webkit-box-pack: center;
@@ -63,15 +62,15 @@ h1 {
 }
 
 .projects-page {
-  padding: 40px;
-  background-color: yellowgreen;
+  padding: 2rem;
+  background-color: #9acd32;
   opacity: 85%;
 }
 
 .profile-page,
 .contact-me {
-  padding: 40px;
-  background-color: silver;
+  padding: 2rem;
+  background-color: #c0c0c0;
   opacity: 85%;
 }
 
@@ -83,11 +82,11 @@ h1 {
 }
 
 .project {
-  color: white;
+  color: #ffffff;
   padding: 5px 5px;
   margin: 10px;
   width: 200px;
-  background-color: dimgrey;
+  background-color: #696969;
   border-radius: 4px;
 }
 
@@ -128,14 +127,14 @@ p {
 }
 
 .project-btn {
-  background-color: goldenrod;
+  background-color: #daa520;
   font-size: 12px;
   border-radius: 3px;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   padding: 8px 8px;
   margin: 3px;
   width: 80%;
-  color: white;
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -156,12 +155,12 @@ p {
 }
 
 .profile a {
-  background-color: goldenrod;
+  background-color: #daa520;
   border-radius: 3px;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   padding: 8px 8px;
   margin: 3px;
-  color: white;
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -169,23 +168,23 @@ p {
 
 .back-to-top {
   text-align: end;
-  padding: 20px;
+  padding: 2rem;
 }
 
 .nav-icon {
   font-size: 3rem;
-  color: slategrey;
+  color: #ffffff;
 }
 
 .contact-me a {
-  color: black;
+  color: #000000;
   text-decoration: none;
   padding: 0 0.7em;
 }
 
 .footer {
-  padding: 20px;
-  background-color: silver;
+  padding: 1rem;
+  background-color: #c0c0c0;
   opacity: 85%;
 }
 
